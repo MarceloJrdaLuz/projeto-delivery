@@ -6,7 +6,7 @@
 2. Para usar o recurso do `Esqueci minha senha` você precisará ter um e-mail outlook configurado para ser usado como transporter do token de redefinição da senha. Então na chave `NODEMAILER_HOST` pode ser usado o host `smtp-mail.outlook.com`, e a chave `NODEMAILER_PORT` usando a porta `587`.  Ou terá que adaptar outro transporter. 
 3. Você também precisa criar um hash que vai ser usado na aplicação para geração de Tokens únicos e coloca-lo na chave `AUTH_SECRET`
 4. No momento essa aplicação foi desenvolvida usando uma api de pagamento do PagSeguro. Ai você tem que criar uma conta no pagseguro, e usar a sandbox de testes deles. E gerar o token da sua conta e colocá-la na `API_TOKEN` do arquivo `.env`. 
-5. Na chave `WHATS_NUMBER` colocar um whats para teste de envio de pedidos caso desejar. 
+5. Na chave `WHATS_NUMBER` colocar um whats para teste de envio de pedidos. 
 
 ## 🚀 Rodando projeto local
 
